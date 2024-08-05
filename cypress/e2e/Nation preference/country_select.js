@@ -9,6 +9,8 @@ describe('Validate dropdown list via Gomycode', () => {
       cy.get('#gomycode-availability-country-selector').select('Global');
       cy.get('#gomycode-availability-country-selector').select('MA');
       cy.get('gomycode-availability-country-selector').select('EG');
+      cy.get('gomycode-availability-country-selector').select('EG');
+
 
     })
 })
